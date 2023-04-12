@@ -1,0 +1,72 @@
+*{
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.header > div{
+  min-width: 200px;
+  
+ 
+}
+.header .logo{
+  padding: 25px;
+  font-size: 3rem;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.header .logo strong{
+  padding: 25px;
+  font-size: 4rem;
+  size: 25px;
+
+}
+.header .profile{
+  justify-content: space-between;
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+}
+.header .menu ul{
+  list-style: none;
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+}
+.header .menu ul li{
+  padding: 25px;
+  font-size: 3rem;
+}
+.header .menu ul li:hover{
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}
+.header .profile ul{
+  list-style: none;
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+}
+.header .profile ul li {
+  padding: 25px;
+  font-size: 3rem;
+}
+.header .profile img{
+  padding: 20px;
+  border-radius: 50%;
+  width: 50Px;
+  height: 50Px;
+}
+.header .profile ul li:hover{
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}
+.header .profile ul img:hover{
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}

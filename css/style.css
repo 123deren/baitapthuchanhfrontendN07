@@ -1,0 +1,36 @@
+h1{
+    color: rgb(40, 129, 232) !important; 
+}
+.noiquy{
+    text-align: center;
+    color: brown;
+    font-size: 3em;
+}
+.bangnoiquy{
+    background-color: rgb(50, 20, 201);
+    margin: 50px;
+}
+.border{
+    border: 1px solid red;
+}
+.border-2{
+    border-width: 5px;
+}
+.border-3{
+    border-width: 10px;
+}
+.border-blue{
+    border-color: blue;
+}
+.p-2{
+    padding: 5px;
+}
+.p-3{
+    padding: 10px;
+}
+.p-5{
+    padding: 20px;
+}
+.m-3{
+    margin: 10px;
+}
